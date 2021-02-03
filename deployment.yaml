@@ -25,7 +25,7 @@ spec:
       hostNetwork: true
       containers:
         - name: controller
-          image: linuxserver/unifi-controller:latest
+          image: linuxserver/unifi-controller:version-6.0.45
           imagePullPolicy: Always
           envFrom:
             - configMapRef:
